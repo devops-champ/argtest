@@ -7,7 +7,9 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     sonarqube.org/project-key: devops-champ_argtest
     jenkins.io/job-full-name: devops-champ/argtest/main
-    argocd/app-name: guestbook,guestbook-qa
+    platform.io/argocd-dev: guestbook
+    platform.io/argocd-qa: guestbook-qa
+    platform.io/argocd-prod: guestbook-prod
 spec:
   type: service
   lifecycle: experimental
