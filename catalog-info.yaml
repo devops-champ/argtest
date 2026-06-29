@@ -8,6 +8,7 @@ metadata:
     sonarqube.org/project-key: devops-champ_argtest
     jenkins.io/job-full-name: devops-champ/argtest/main
     argocd/app-name: guestbook
+    argocd/app-name: guestbook-qa
 spec:
   type: service
   lifecycle: experimental
